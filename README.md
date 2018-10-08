@@ -1,12 +1,16 @@
 # AndroidStudy
 
 # 1주차
-  ## Front_End, Back_End, FullStack, FrameWork 개념
-  ## Linearlayout, RelativeLayout, GridLayout, FrameLayout 다루기
+  - ## 기본개념 익히기
+     - Front_End, Back_End, FullStack, FrameWork 개념
+     - Manifest, res, java, gradle 각각의 기능
+     
+  - ## Layout 다루기
+     - Linearlayout, RelativeLayout, GridLayout, FrameLayout 다루기
   
   
 # 2주차
-  ## Github 첫 repository 생성 시
+ - ## Github 첫 repository 생성 시
     - GitHub 원격 repository 생성 및 생성된 주소 복사
     
     - $ cd (project-name)
@@ -28,7 +32,7 @@
     - $ git push -u origin master
         -> master branch의 내용을 원격 저장소 origin 으로 push함
        
-  ## 프로젝트 clone 시
+ - ## 프로젝트 clone 시
     - 프로젝트를 저장할 디렉토리 생성 후 bash 창 실행
     
     - $ git init
@@ -41,7 +45,7 @@
         
     - 작업 후 git add, commit, push 명령어 실행하여 업로드
     
-  ## Branch 다루기
+ - ## Branch 다루기
     - $ git branch
         -> 프로젝트에 있는 branch list 보여주기
         
@@ -62,7 +66,7 @@
         
     - 작업 후 git add, commit, push 명령어 실행하여 업로드
    
-  ## 기타 명령어
+ - ## 기타 명령어
     - $ git status
         -> git의 변경사항(추가된 내용, 삭제된 내용 등)을 확인
         
@@ -70,7 +74,8 @@
         -> origin 이라는 원격저장소로부터 내용을 불러와 로컬에서 작업중인 프로젝트와 merge함
         
   
-  ## ImageView, TextView, EditText, Button, Listview, RecyclerView, GridView
+ - ## View 다루기
+    - ImageView, TextView, EditText, Button, Listview, RecyclerView, GridView
     
     
     
