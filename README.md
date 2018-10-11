@@ -67,7 +67,7 @@
     - $ git checkout -b (branch-name)
         -> (branch-name) 브랜치 생성
         
-    - $ git checkout -d (branch-name)
+    - $ git branch -d (branch-name)
         -> (branch-name) 브랜치 삭제
         
     - $ git checkout (branch-name)
