@@ -10,10 +10,12 @@
         android:columnCount="5"
         android:orientation="vertical">
 
+        <!--columnStretch, columnShrink, span, layout gravity, layout column-->
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="hellow, world"/>
+            android:text="hellow, world" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -39,7 +41,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="hellow, world"/>
+            android:text="hellow, worlD"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -51,9 +53,23 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="hellow, world"/>
-
+            android:text="hellow, world"
+            android:textColor="#465743"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
 
     </GridLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hellow" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:src="@drawable/ic_launcher_foreground"/>
 
 </LinearLayout>

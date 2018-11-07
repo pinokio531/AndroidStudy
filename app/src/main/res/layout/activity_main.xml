@@ -11,35 +11,100 @@
     android:weightSum="1">
 
     <TextView
+        android:id="@+id/tv1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:text="hellow, world"
         android:layout_weight="0.3"/>
 
     <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="hellow, world"
+        android:layout_weight="0.2"/>
+
+    <TextView
+        android:id="@+id/tv3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="hellow, world"/>
 
     <TextView
+        android:id="@+id/tv4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="hellow, world"/>
 
     <TextView
+        android:id="@+id/tv5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="hellow, world"/>
 
     <TextView
+        android:id="@+id/tv6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="hellow, world"/>
+        android:text="hellow, worldajfhsk"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/colorAccent"/>
 
-    <TextView
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="hellow, world"/>
+        android:hint="글자를 입력해주세요"
+        android:textStyle="bold"
+        android:background="#FFFFFF"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:src="@drawable/ic_launcher_foreground" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="버튼"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="채크해주세요"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="채크해주세요"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="채크해주세요"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="채크해주세요"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="채크해주세요"/>
+
+    </RadioGroup>
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dgdgdgdgdg"/>
 
 
 </LinearLayout>

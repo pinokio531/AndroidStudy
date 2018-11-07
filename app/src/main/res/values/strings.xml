@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">sungminApp</string>
+
+    <string-array name="stringArray">
+        <item> 일시불 </item>
+        <item> 6개월 </item>
+    </string-array>
 </resources>
