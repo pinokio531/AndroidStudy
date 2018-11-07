@@ -90,7 +90,35 @@
  ```       
   
  - ## View 다루기
-    - ImageView, TextView, EditText, Button, Listview, RecyclerView, GridView
+    - ImageView, TextView, EditText, Button
+    - ImageButton, CheckBox, RadioButton
+    - 기타 View와 속성에 관해서는 <https://developer.android.com/?hl=ko> 참고
     
+3주차
+  - ## Android 에서 알아두어야 할 아주아주 기본적인 JAVA
+  
+```
+      1. public, private, final, static
+      2. Override, Overload
+      3. 상속, 인터페이스
+      
+```
+[참고]<https://github.com/pinokio531/AndroidStudy/blob/master/app/src/main/java/com/sungminapplication/sungminapp/AndroidBase/>
+  
+  - ## Component
     
+```
+      1. Activity : 사용자 눈에 직접적으로 View들을 보여주는 곳
+      
+      2. Service : 응용프로그램이 종료 여부와 상관없이 기능을 실행 시킬 수 있는 곳
+                    ex) 뮤직플레이어는 종료되도 노래는 나옴 
+                    
+      3. Braodcase Receiver : 휴대폰 내의 상태를 파악하다가 특정 변화가 일어나며 알려주는 곳
+                              ex) 밧데리 15%가 되며 밧데리 없다고 알림이 옴
+                              
+      4. Provider : 하나의 응용프로그램에서 서로 다른 응용프로그램으로 정보, 값들을 넘기는 곳
+      
+      5. Application : 위에서 설명한 4가지 컴포넌트들을 모두 포함하며 최상단에 위치한다.
+      
+ ```
     
