@@ -9,10 +9,6 @@
      - Linearlayout, RelativeLayout, GridLayout, FrameLayout 다루기
   
   
-  
-  
-  
-  
 # 2주차
  - ## Github 첫 repository 생성 시
  
@@ -129,3 +125,6 @@
  ```
  [참고] <https://github.com/pinokio531/AndroidStudy/tree/master/app/src/main/java/com/sungminapplication/sungminapp/MakeButton>
 
+ # 4주차(예정)
+  - ## activity 생명주기, 버튼 복습, 화면전환(intent), textview, edittext 이용한 계산기 만들기, 과제로 화면 2개 만들기
+      
