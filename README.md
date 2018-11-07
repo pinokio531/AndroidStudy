@@ -94,16 +94,15 @@
     - ImageButton, CheckBox, RadioButton
     - 기타 View와 속성에 관해서는 <https://developer.android.com/?hl=ko> 참고
     
-3주차
+# 3주차
   - ## Android 에서 알아두어야 할 아주아주 기본적인 JAVA
   
 ```
       1. public, private, final, static
       2. Override, Overload
       3. 상속, 인터페이스
-      
 ```
-[참고]<https://github.com/pinokio531/AndroidStudy/blob/master/app/src/main/java/com/sungminapplication/sungminapp/AndroidBase/>
+[참고] <https://github.com/pinokio531/AndroidStudy/blob/master/app/src/main/java/com/sungminapplication/sungminapp/AndroidBase/>
   
   - ## Component
     
@@ -119,6 +118,14 @@
       4. Provider : 하나의 응용프로그램에서 서로 다른 응용프로그램으로 정보, 값들을 넘기는 곳
       
       5. Application : 위에서 설명한 4가지 컴포넌트들을 모두 포함하며 최상단에 위치한다.
-      
  ```
-    
+   - ## Button 구현 방법
+   ```
+      1. 익명클래스를 이용하는 방법
+      
+      2. 인터페이스를 받아 이용하는 방법
+                    
+      3. 별도의 리스너를 만들어 이용하는 방법(내부 클래스, 외부 클래스, 버튼 리스너 객체 생성)
+ ```
+ [참고] <https://github.com/pinokio531/AndroidStudy/tree/master/app/src/main/java/com/sungminapplication/sungminapp/MakeButton>
+ 
