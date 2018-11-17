@@ -125,6 +125,36 @@
  ```
  [참고] <https://github.com/pinokio531/AndroidStudy/tree/master/app/src/main/java/com/sungminapplication/sungminapp/MakeButton>
 
- # 4주차(예정)
-  - ## activity 생명주기, 버튼 복습, 화면전환(intent), textview, edittext 이용한 계산기 만들기, 과제로 화면 2개 만들기
+ # 4주차
+  - ## 동아리 어플 만들기 진행
+  ```
+      - 스플래시 화면(Splash)
+      - 행사수정 화면(Event_edit)
+  ```
+  - ## xml 파일을 이용한 Custom Button 만들기
+  ```
+      - res -> drawable 에서 new drawable 만들기(3개-> shape 2개, selector 1개)
+      - shape 를 이용하여 custom button 2개 만들기(클릭시, 안클릭시)
+      - selector를 이용하여 pressed, unpressed 시 custom button 적용
+        * selector는 xml 파일에서 if 문 처럼 사용하게 만들 수 있음
+  ```
+  
+ - ## 액티비티 전환하기
+ ```
+    1. Intent intent = new Intent(context1, context2);
+       startActivity(intent);
+    
+    2. startActivity(new Intent(context1, context2);
+    
+    * 두 가지 방법이 있으며 context1은 현재 액티비티 context2는 다음 액티비티를 말함
+    * 파일에 button 객체 생성, onClickListener 익명클래스로 등록, onClick 콜백메소드에 intent 사용
+    * 위 과정을 진행한 후 manifest 항상 확인!! (context에 사용한 액티비티가 등록 안되어 있을시 notFoundActivity 에러 발생)   
+ ```
+    
+    
+  # 5주차(예정)
+  - ## activity 생명주기, textview, edittext 이용한 계산기 만들기,
+  - ## fragment 생명주기, fragment와 bottom navigation을 이용한 메인화면 구성
+  - ## intent, bundle, static, sharedPreference 특징
+  - ## 과제 : Login 화면 넣어서 만들어오기, 레이아웃 3개 만들어오기
       
