@@ -4,7 +4,6 @@ public class MainClass {
 
     public static void main(String args[]){ //main 함수 실행
 
-
         exButterFly();
         exStaticValue();
         calculate(2,3);
